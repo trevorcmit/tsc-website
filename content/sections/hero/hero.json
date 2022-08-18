@@ -1,14 +1,14 @@
 {
-  "intro": "Hej",
+  "intro": "Hello.",
   "heroPhoto": {
-    "src": "../../images/lego-dummy.png",
-    "alt": "My Photo"
+    "src": "../../images/babyheadshot.jpg",
+    "alt": "Baby Trevor poses for the camera."
   },
   "image": {
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "I'm a Gatsby Starter",
+  "title": "I am Trevor Stephen Carter.",
   "subtitle": {
     "prefix": "I do all the setup ",
     "highlight": "for you",
@@ -16,7 +16,7 @@
   },
   "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
   "socialProfiles": {
-    "from": ["LinkedIn", "Medium", "Github", "Mail"],
-    "showIcons": false
+    "from": ["LinkedIn", "Github", "Mail"],
+    "showIcons": true
   }
 }
