@@ -8,9 +8,7 @@ export default function ResearchPage() {
     return (
         <>
             <Seo title="Research" />
-            <Page>
-                {/* <Listing></Listing> */}
-            </Page>
+            <Page></Page>
         </>
     );
 }

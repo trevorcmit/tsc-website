@@ -17,7 +17,8 @@ export function useMediaQuery(query: string, callback?: (isMatch: boolean) => vo
         if (mediaQuery.addEventListener) {
             mediaQuery.addEventListener('change', handleMatch);
             return () => mediaQuery.removeEventListener('change', handleMatch);
-        } else {
+        } 
+        else {
             // backwards compatibility
             // https://betterprogramming.pub/using-window-matchmedia-in-react-8116eada2588
             mediaQuery.addListener(handleMatch);

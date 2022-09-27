@@ -88,7 +88,7 @@ export function ArticleCardSkeleton(): React.ReactElement {
                 <SkeletonLoader style={{ height: '4rem', background: 'var(--tertiary-color)' }} />
                 <SkeletonLoader
                     style={{
-                        height: '.75rem',
+                        height: '0.75rem',
                         width: '50%',
                         marginTop: '.5rem',
                         background: 'var(--tertiary-color)',
